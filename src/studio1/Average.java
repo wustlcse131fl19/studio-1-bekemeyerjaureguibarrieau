@@ -10,7 +10,7 @@ public class Average {
         int n1 = ap.nextInt("Enter value for n1");
         int n2 = ap.nextInt("Enter value for n2");
 
-        double average = (n1+n2)/2;
+        double average = (double)(n1+n2)/2;
         System.out.println(average);
     }
 
